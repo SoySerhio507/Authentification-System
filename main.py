@@ -3,7 +3,7 @@ from typing import Tuple, List
 import csv
 
 # Getting the information from the file
-with open("IdentityBot Tartu Discord User Verification List - Sheet1.csv", "r") as file:
+with open("Authentification Database.csv", "r") as file:
     file_dict = csv.DictReader(file)
 
     # Creating the dictionary of users
